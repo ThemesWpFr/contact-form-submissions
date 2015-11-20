@@ -85,7 +85,7 @@ class WPCF7SAdmin {
             unset($actions['edit']);
             unset($actions['inline hide-if-no-js']);
 
-            $actions = array_merge(array('aview' => '<a href="' . get_edit_post_link( $post->ID ) . '">View</a>'), $actions);
+            $actions = array_merge(array('aview' => '<a href="' . get_edit_post_link( $post->ID ) . '">'.__('View', WPCF7S_TEXT_DOMAIN).'</a>'), $actions);
         }
         return $actions;
     }
@@ -160,28 +160,28 @@ class WPCF7SAdmin {
         <table class="form-table wpcf7s" style="width: 100%;">
             <tbody>
                 <tr>
-                    <th scope="row">Contact Form</th>
+                    <th scope="row"><?php _e('Contact Form', WPCF7S_TEXT_DOMAIN );?></th>
                     <td><a href="<?php echo add_query_arg(array('page'=>'wpcf7', 'post'=>$form_id, 'action'=>'edit'), admin_url('admin.php')); ?>"><?php echo get_the_title($form_id); ?></a></td>
                 </tr>
                 <tr>
-                    <th scope="row">Sender</th>
+                    <th scope="row"><?php _e('Sender', WPCF7S_TEXT_DOMAIN );?></th>
                     <td><?php echo $sender_mailto; ?></td>
                 </tr>
                 <tr>
-                    <th scope="row">Recipient</th>
+                    <th scope="row"><?php _e('Recipient', WPCF7S_TEXT_DOMAIN );?></th>
                     <td><?php echo $recipient_mailto; ?></td>
                 </tr>
                 <tr>
-                    <th scope="row">Subject</th>
+                    <th scope="row"><?php _e('Subject', WPCF7S_TEXT_DOMAIN );?></th>
                     <td><?php echo get_post_meta($post->ID, 'subject', true); ?></td>
                 </tr>
                 <tr>
-                    <th scope="row">Body</th>
+                    <th scope="row"><?php _e('Body', WPCF7S_TEXT_DOMAIN );?></th>
                     <td><?php echo apply_filters('the_content', $post->post_content); ?></td>
                 </tr>
                 <?php if(!empty($additional_headers)){ ?>
                     <tr>
-                        <th scope="row">Additional Headers</th>
+                        <th scope="row"><?php _e('Additional Headers', WPCF7S_TEXT_DOMAIN );?></th>
                         <td><?php echo get_post_meta($post->ID, 'additional_headers', true); ?></td>
                     </tr>
                 <?php } ?>
