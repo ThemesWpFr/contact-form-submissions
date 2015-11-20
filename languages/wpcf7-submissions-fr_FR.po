@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form Submissions\n"
+"POT-Creation-Date: 2015-11-19 09:30-0500\n"
+"PO-Revision-Date: 2015-11-19 09:32-0500\n"
+"Last-Translator: TWF <info@themes-wordpress-francais.com>\n"
+"Language-Team: TWF <info@themes-wordpress-francais.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: contact-form-submissions.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Admin.php:26 Admin.php:41 Admin.php:203
+msgid "Submitted"
+msgstr "Envoyé le"
+
+#: Admin.php:65 Admin.php:115 Admin.php:165
+msgid "Contact Form"
+msgstr "Formulaire"
+
+#: Admin.php:88
+msgid "View"
+msgstr "Voir"
+
+#: Admin.php:114 Submissions.php:15 Submissions.php:17 Submissions.php:18
+#: Submissions.php:24
+msgid "Submission"
+msgstr "Messages reçus"
+
+#: Admin.php:116
+msgid "Date"
+msgstr "Date"
+
+#: Admin.php:148
+msgid "Mail"
+msgstr "Message"
+
+#: Admin.php:149
+msgid "Overview"
+msgstr "Détails"
+
+#: Admin.php:169
+msgid "Sender"
+msgstr "Expediteur"
+
+#: Admin.php:173
+msgid "Recipient"
+msgstr "Destinataire"
+
+#: Admin.php:177
+msgid "Subject"
+msgstr "Sujet"
+
+#: Admin.php:181
+msgid "Body"
+msgstr "Message"
+
+#: Admin.php:186
+msgid "Additional Headers"
+msgstr "En-têtes additionnelles"
+
+#: Admin.php:196
+msgid "M j, Y @ H:i"
+msgstr "j M Y @ H:i"
+
+#: Submissions.php:13
+msgctxt "Post Type General Name"
+msgid "Contact Form Submissions"
+msgstr "Messages enregistrés"
+
+#: Submissions.php:14
+msgctxt "Post Type Singular Name"
+msgid "Submission"
+msgstr "Message"
+
+#: Submissions.php:16
+msgid "Submissions"
+msgstr "Messages"
+
+#: Submissions.php:19
+msgid "Search"
+msgstr "Chercher"
+
+#: Submissions.php:20
+msgid "Not found"
+msgstr "Introuvable"
+
+#: Submissions.php:21
+msgid "Not found in Trash"
+msgstr "Introuvable dans la corbeille"
+
+#: Submissions.php:25
+msgid "Post Type Description"
+msgstr "Description du type d’article"
+
+#. Plugin Name of the plugin/theme
+msgid "Contact Form Submissions"
+msgstr "Enregistrement de message des formulaires de contact"
+
+#. Description of the plugin/theme
+msgid "Save all Contact Form 7 submissions in the database."
+msgstr "Enregistre tous les messages envoyés depuis les formulaires."
+
+#. Author of the plugin/theme
+msgid "Jason Green"
+msgstr "Jason Green"
